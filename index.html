@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <header class="title-card">
+        <h1 class="title-card-heading">Huewine Technologies</h1>
+    </header>
+    <div class="login-bg-card">
+        <!--<img src="" alt="" > -->
+        <form id="myForm" class="login-card">
+            <div class="inputs-card">
+                <label for="username" class="label-text">Username</label>
+                <input placeholder="Enter Username" type="text" class="user-input" name="" id="username">
+                <p id="usernameerror" class="error-msg"></p>
+            </div>
+            <div class="inputs-card">
+                <label for="password" class="label-text"> Password</label>
+                <input placeholder="Enter Password" type="password" class="user-input" name="" id="password">
+                <p id="passworderror" class="error-msg"></p>
+            </div>
+            <div class="inputs-card btn-card">
+                <button class="login-button" type="submit">Login</button>
+                <!--<a href="D:\Huewine\Frontend Assignments\Assignment-2\index.html" target="_blank" rel="noopener noreferrer">
+                    <button class="login-button" type="button">Login</button>
+                </a>-->
+                <p id="failure"></p>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
